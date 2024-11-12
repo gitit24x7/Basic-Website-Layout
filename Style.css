@@ -1,1 +1,120 @@
+/*This is how we declare variables */
 
+:root {
+  --one: #839d9a;
+}
+
+body {
+  border: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+}
+
+.main-container {
+  background-color: #151e3f;
+}
+
+header {
+padding:30px;
+}
+
+.logo {
+  display: flex;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 5px 5px lightblue;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+}
+
+navbar li {
+  list-style: none;
+  text-transform:uppercase;
+  color: white;
+  display: inline;
+}
+
+/* use background color for UL to color the whole row of the nav items, else there will be spaces if you used it in li */
+
+navbar ul {
+  background-color: black;
+  text-align: center;
+  padding: 10px 15px 20px;
+}
+
+/* using display:flex in this container */
+.container-two {
+  background-color: #4361ee;
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+#card-one,
+#card-two {
+  width: 480px;
+  height: 275px;
+  padding: 100px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#card-one {
+  margin:10px;
+  background-color: #fdca40;
+}
+#card-two {
+  margin:10px;
+  background-color: #df2935;
+}
+/* To center the button, the container was targeted to make display:flex, if we target the button class to center the button in the container, that would not work */
+
+.container-three{
+  background-color:#03CEA4;
+  height: 500px;
+  margin:10px;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+/* Adjusting the third container text with the footer text */
+
+.some-text{
+  margin-left:80px;
+}
+
+footer {
+  background-color: black;
+  font-size: 10px;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+  list-style: none;
+}
+
+footer li{
+ display:inline;
+font-size:20px;
+}
+
+a.links:hover{
+  background-color: yellow;
+}
+
+ .button {
+  background-color:black;
+  padding:15px 20px;
+  margin: 10px 12px;
+  border-radius: 8px;
+  color:white;
+  border-style: none;
+  
+}
+
+.button:hover{
+  background-color: red;
+}
