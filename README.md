@@ -13,9 +13,9 @@ Basic HTML and simple CSS styling to learn about the layouts focusing on Flexbox
    <div class="main-container">
 
   <header>
-    <p class="logo">Hello World!</p>
+    <p> class="logo">Hello World!</p>
 
-    <navbar>
+<navbar>
       <ul>
         <li>
           <p>This is the navigation bar</p>
@@ -30,7 +30,7 @@ Basic HTML and simple CSS styling to learn about the layouts focusing on Flexbox
 
   <div class="container-two">
 
-    <div id="card-one">
+<div id="card-one">
       <h1>1</h1>
     </div>
     <div id="card-two">
