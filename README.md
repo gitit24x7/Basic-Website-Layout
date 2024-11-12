@@ -12,7 +12,7 @@ Basic HTML and simple CSS styling to learn about the layouts focusing on Flexbox
 <body>
    <div class="main-container">
   <header>
-    <p> class="logo">Hello World!</p>
+    <p class="logo"> Hello World!</p>
 <navbar>
       <ul>
         <li>
